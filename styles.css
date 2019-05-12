@@ -1,0 +1,29 @@
+body{
+    background-image:url('../images/pig.gif');
+    background-size: cover;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Akronim';
+    font-size:25px;
+    text-align: center;
+
+    
+}
+.fa-angle-double-down{
+    margin-top:35%;
+    margin-left:11%;
+    animation: nas 4s linear infinite;
+    font-size: 50px;
+    color:black;
+    
+}
+@keyframes nas{
+    0%{margin-top:20%;}
+    50%{
+        margin-top:30%;
+    }
+    100%{
+        margin-top:10%;
+    }
+}
