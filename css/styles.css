@@ -25,6 +25,16 @@ body{
         margin-top:10%;
     }
 }
-.rules p{
+.btn{
+    margin: 10px 0;
+}
+.newGame{
     display: none;
+}
+.hidden_rules{
+    display: none;
+}
+.gameContainer{
+    display: none;
+    margin-top: 5%;
 }

@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Pig Dice</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Akronim" rel="stylesheet">
@@ -19,10 +20,10 @@
 
 
   </div>
-  <div id="Rules">
-      <button class="btn btn-outline-danger btn-lg" id="rule">button</button>
+  <div id="dispRules">
+      <button class="btn btn-outline-danger btn-lg" id="rule">Rules</button>
   </div>
-  <div class="rules">
+  <div class="hidden_rules">
     <p>Players will take turns to roll the die.</p>
     <p>You can only stop rolling if you click the 'hold' button.</p>
     <p>Your score for a particular round will go to 0 if the die lands on 1.</p>
@@ -30,23 +31,25 @@
     <p>The game ends when one of the players gets to 100 points first</p>
 
   </div>
-  <form action="" id="game">
-    <input type="text" placeholder="Player1" name="" id="name1" required>
-    <input type="text" placeholder="Player2" name="" id="name2" required><br>
-    <button type="submit">Start Game</button>
+  <form action="" id="playerName">
+    <input type="text" placeholder="Player1" name="" id="firstName" required>
+    <input type="text" placeholder="Player2" name="" id="secondName" required><br>
+    <button type="submit" class="btn btn-dark">Start Game</button>
   </form>
-  <div class="container-fluid">
+  <a href="index.html"><button class="newGame btn btn-primary">Start New Game</button></a>
+  
+  <div class="gameContainer container-fluid">
     <div class="row">
       <div class="col">
         <div class="card">
           <h3><span class="player1">Player 1</span> <br><br>Totalscore: <span class="player1-score"></span>
           </h3>
-          <h3>Rollscore: <span id="round1"></span></h3>
+          <h3>Rollscore: <span id="kwanza"></span></h3>
           <h3>Roll: <span id="value1"></span></h3>
           <div class="" id="cleaner">
 
-            <button class="btn btn-outline-danger btn-lg" id="roll1">Roll </button>
-            <button class="btn btn-outline-success btn-lg" id="roll2">Hold</button>
+            <button class="btn btn-outline-danger btn-lg" id="rollBtn1">Roll </button>
+            <button class="btn btn-outline-success btn-lg" id="holdBtn1">Hold</button>
 
           </div>
         </div>
@@ -55,12 +58,12 @@
         <div class="card">
           <h3><span class="player2">Player 2</span> <br><br>Totalscore: <span class="player2-score"></span>
           </h3>
-          <h3>Rollscore: <span id="round2"></span></h3>
+          <h3>Rollscore: <span id="pili"></span></h3>
           <h3>Roll: <span id="value2"></span></h3>
           <div class="" id="you">
 
-            <button class="btn btn-outline-danger btn-lg" id="roll3">Roll</button>
-            <button class="btn btn-outline-success btn-lg" id="roll4">Hold</button>
+            <button class="btn btn-outline-danger btn-lg" id="rollBtn2">Roll</button>
+            <button class="btn btn-outline-success btn-lg" id="holdBtn2">Hold</button>
 
           </div>
         </div>
@@ -68,9 +71,10 @@
     </div>
   </div>
 
-  <script src="https://code.jquery.com/jquery-migrate-3.0.1.js"
-    integrity="sha256-VvnF+Zgpd00LL73P2XULYXEn6ROvoFaa/vbfoiFlZZ4=" crossorigin="anonymous"></script>
-  <script src="js/script.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-migrate-3.0.1.js"
+    integrity="sha256-VvnF+Zgpd00LL73P2XULYXEn6ROvoFaa/vbfoiFlZZ4=" crossorigin="anonymous"></script> -->
+    <script src="./js/jquery-3.4.0.js"></script>
+  <script src="./js/script.js"></script>
 
 </body>
 
