@@ -13,8 +13,8 @@ Pig is a simple dice game which in its basic form is playable with just a single
 * Bootsrap
 * Jquery
  ##Behaviour Driven Development
- *Behaviour     *input    *output
-
+ *Behaviour     |*input    |*output
+The site is a game you are playing by roling the dice and record the scores made.
 
 
 
@@ -25,7 +25,7 @@ Pig is a simple dice game which in its basic form is playable with just a single
 
 
 Link to the app:
-[click me to go to the live site](https://nasiboyussuf.github.io/Delani-Studio/)
+[click me to go to the live site](https://nasiboyussuf.github.io/Pig-dice/)
 
 License:
-Copyright © 2019; Nasiboyussuf.Inc. [MIT LICENSE](https://github.com/Nasiboyussuf/Delani-Studio/blob/master/IP3-master/LICENSE)
+Copyright © 2019; Nasiboyussuf.Inc. [MIT LICENSE](https://github.com/Nasiboyussuf//blob/master/IP3-master/LICENSE)

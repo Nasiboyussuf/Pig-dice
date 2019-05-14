@@ -31,9 +31,34 @@
       <input type="text" placeholder="Player 2" name="" id="name2" required><br>
       <button type="submit">Start Game</button>
   </form>
-
-    
-
+  <div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <h3><span class="player1">Player 1</span> <br><br>Totalscore: <span class="player1-score"></span>
+            </h3>
+            <h3>Rollscore: <span id="round1"></span></h3>
+            <h3>Roll: <span id="value1"></span></h3>
+            <div class="" id="cleaner">
+                <form id="button">
+                    <button class="btn btn-outline-danger btn-lg" id="roll1">Roll </button>
+                    <button class="btn btn-outline-success btn-lg" id="roll2">Hold</button>
+                </form>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <h3><span class="player2">Player 2</span> <br><br>Totalscore: <span class="player2-score"></span>
+            </h3>
+            <h3>Rollscore: <span id="round2"></span></h3>
+            <h3>Roll: <span id="value2"></span></h3>
+            <div class="" id="you">
+                <form id="task">
+                    <button class="btn btn-outline-danger btn-lg" id="roll3">Roll</button>
+                    <button class="btn btn-outline-success btn-lg" id="roll4">Hold</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
       <script src="./js/jquery-3.4.0.js"></script>
       <script src="./js/script.js"></script>
