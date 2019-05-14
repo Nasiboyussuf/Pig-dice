@@ -1,0 +1,40 @@
+body{
+    background-image:url(../images/dice.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    color: green;
+    background-position: center;
+    font-size:25px;
+    text-align: center;  
+}
+.fa-angle-double-down{
+    margin-top:35%;
+    margin-left:11%;
+    animation: nas 4s linear infinite;
+    font-size: 50px;
+    color:black;
+    
+}
+@keyframes nas{
+    0%{margin-top:20%;}
+    50%{
+        margin-top:30%;
+    }
+    100%{
+        margin-top:10%;
+    }
+}
+.btn{
+    margin: 10px 0;
+}
+.newGame{
+    display: none;
+}
+.hidden_rules{
+    display: none;
+}
+.gameContainer{
+    display: none;
+    margin-top: 5%;
+}
