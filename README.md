@@ -35,4 +35,4 @@ Link to the app:
 [click me to go to the live site](https://nasiboyussuf.github.io/Pig-dice/)
 
 License:
-Copyright © 2019; Nasiboyussuf.Inc. [MIT LICENSE](https://github.com/Nasiboyussuf//blob/master/IP3-master/LICENSE)
+Copyright © 2019; Nasiboyussuf.Inc. [MIT LICENSE](https://github.com/Nasiboyussuf/Pig-dice/blob/master/Licence)
