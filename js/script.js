@@ -18,7 +18,7 @@ $(document).ready(function () {
         $("#playerName").toggle(100);
         $(".player1").text(playerOne);
         $(".player2").text(playerTwo);
-        $(".gameContainer").toggle();
+       c $(".gameContainer").toggle();
         $(".newGame").toggle();
     });
     $("#rollBtn2, #holdBtn2").hide();
