@@ -22,3 +22,7 @@ body{
     display: none;
     margin-top: 5%;
 }
+.hidden_rules{
+    color:black;
+    opacity:0.9;
+}
