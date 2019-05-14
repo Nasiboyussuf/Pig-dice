@@ -25,4 +25,8 @@ body{
 .hidden_rules{
     color:black;
     opacity:0.9;
+    background-color:transparent;
+    border:1px solid green;
+    margin-left: 285px;
+    margin-right: 285px;
 }
