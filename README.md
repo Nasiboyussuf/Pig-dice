@@ -1,6 +1,7 @@
 # Pig-Dice
 Pig-Dice,May 13 2019
-###By Nasibo Yussuf
+This is a game 
+### By Nasibo Yussuf
 
 ## Description:
 Pig is a simple dice game which in its basic form is playable with just a single die. You win by being the first player to score 100 or more points.
@@ -9,12 +10,13 @@ Pig is a simple dice game which in its basic form is playable with just a single
 * HTML
 * Javascript
 * CSS
-##Libraries
+
+## Libraries
 * Bootsrap
 * Jquery
- ##Behaviour Driven Development
- *Behaviour     |*input    |*output
-The site is a game you are playing by roling the dice and record the scores made.
+
+ ## Behaviour Driven Development
+ 
 
 
 
